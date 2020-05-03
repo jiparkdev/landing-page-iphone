@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quattrocento+Sans:ital,wght@1,700&family=Red+Hat+Display:ital,wght@0,400;0,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="nav-section" id="header">
+      <div class="container">
+        <div class="inner-box">
+          <nav id="nav-bar">
+            <ul class="nav-list">
+              <li class="nav-item">
+                <a href="#form" class="nav-link">Form</a>
+              </li>
+              <li class="nav-item">
+                <a href="#email" class="nav-link">Email</a>
+              </li>
+              <li class="nav-item">
+                <a href="#video" class="nav-link">Video</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="cart-info">
+            <img
+              src="https://www.svgrepo.com/show/11541/shopping-cart.svg"
+              alt="cart-icon"
+              class="cart-icon"
+              id="header-img"
+            />
+            <div class="cart-qty-container">
+              <div class="cart-qty">1</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="main-section">
+      <div class="container">
+        <div class="content-box">
+          <div class="left-content">
+            <h1 class="main-title">Call Your Friends</h1>
+            <p class="main-tagline">Made for high number of phone calls</p>
+            <form
+              action="https://www.freecodecamp.com/email-submit"
+              method="get"
+              id="form"
+            >
+              <input type="email" name="email" id="email" placeholder="email" />
+              <br />
+              <input
+                id="submit"
+                type="submit"
+                class="buy-btn"
+                value="Buy Now"
+              />
+            </form>
+          </div>
+          <div class="right-content">
+            <img
+              src="https://media.very.co.uk/i/very/PFDE6_SQ1_0000000004_BLACK_SLf?$300x400_retinamobilex2$"
+              alt="main-image"
+              class="main-img"
+            />
+            <video controls="true" class="video-stream" id="video">
+              <source
+                src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"
+                type="video/mp4"
+              />
+            </video>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
